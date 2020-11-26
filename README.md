@@ -2,7 +2,7 @@
 My personal favorite R Markdown Templates
 
 <h2>Usage</h2>
-Fully complie your script and use purl() from knitr to generate a file containing only lines of code:
+Fully compile your script and use purl() from knitr to generate a file containing only lines of code:
 
 ```r
 knitr::purl(input = "markdown.Rmd", output = "code.R", documentation = 0
