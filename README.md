@@ -21,6 +21,6 @@ output:
     toc_float: true
     highlight: kate
 github_link: /github_user/ #Insert Github username to appear in nav-bar
-summary: "Summary text to appear in Project Info Bar"
+summary: "Summary #text to appear in Project Info Bar"
 file: "code.R"
 ```
