@@ -1,5 +1,5 @@
 # rmd_templates
-My personal favorite R Markdown Templates
+Some custom R Markdown templates I've put together.
 
 <h2>Usage</h2>
 Fully compile your script and use purl() from knitr to generate a file containing only lines of code:
