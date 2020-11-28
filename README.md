@@ -7,7 +7,7 @@ Some custom R Markdown templates I've put together.
 devtools::install_github("basilkhuder/RMDExtra")
 ```
 
-After installation, the theme will appear under the <b>From Template</b> option when creating a new markdown file and you will be asked to give the template a folder a name. 
+After installation, the theme will appear under the <b>From Template</b> option when creating a new markdown file and you will be asked to give the template folder a name. 
 
 <h4> To Include R Code </h4>
 Run the following code to produce type of R Script you want to appear in the "code" tab of the theme. Use documention = 0 to extract only the R code, and 2 to include documentation
