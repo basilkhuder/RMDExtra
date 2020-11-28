@@ -1,0 +1,41 @@
+---
+title: "Untitled"
+author: "Your Name"
+date: "Today's Date"
+output: RMDExtra::sleek_black
+---
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Part One
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor vitae magna eget varius. Cras luctus fermentum purus in congue. Aliquam non tincidunt arcu. Nunc purus odio, egestas nec justo sollicitudin, convallis mollis tellus. Donec facilisis mattis diam vitae eleifend. Nullam imperdiet justo pellentesque molestie pharetra. In cursus velit non convallis commodo. Vivamus dolor libero, fermentum sed faucibus ac, accumsan id tellus.
+
+## Analysis
+
+```{r cars}
+summary(cars)
+data.frame(x = 1:5, y = 1:5)
+```
+
+# Part 2
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor vitae magna eget varius. Cras luctus fermentum purus in congue. Aliquam non tincidunt arcu. Nunc purus odio, egestas nec justo sollicitudin, convallis mollis tellus. Donec facilisis mattis diam vitae eleifend. Nullam imperdiet justo pellentesque molestie pharetra. In cursus velit non convallis commodo. Vivamus dolor libero, fermentum sed faucibus ac, accumsan id tellus.
+
+## Analysis
+
+Here are some ggplots:
+
+```{r}
+library(ggplot2)
+library(magrittr)
+data.frame(col_one = paste0("individual", 1:5), col_two = runif(5)) %T>%
+  {print(ggplot(., aes(col_one, col_two)) + geom_point())} %>%
+  print()
+```
+
+
+## TEST
+
+Another test here
