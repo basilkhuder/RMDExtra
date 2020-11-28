@@ -11,6 +11,8 @@ After installation, the themes will appear under the <b>From Template</b> option
 
 <h2>Sleek Black</h2>
 
+[Demo link](https://basilkhuder.github.io/Sleek_Black.html)
+
 
 <h4> To Include R Code </h4>
 
