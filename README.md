@@ -21,7 +21,7 @@ Copy the output file to your theme directory, and add the name to the code_file 
 <h4> Run the Theme </h4> 
 Include the name of the theme in the output slot of your YAML header. 
 
-```r
+```
 ---
 title: "Untitled"
 author: "Your Name"
