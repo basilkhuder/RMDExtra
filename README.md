@@ -21,7 +21,7 @@ knitr::purl(input_markdown, output_text, documention = 0)
 Copy the output file to theme directory you created earlier, and add the name to the code_file option in your YAML header. 
 
 <h4> Run the Theme </h4> 
-Include the name of the theme in the output slot of your YAML header. 
+Include the name of the theme in the output slot of your YAML header. Include a summary which will be included in the Project Info tab. 
 
 ```
 ---
@@ -30,5 +30,6 @@ author: "Your Name"
 date: "Today's Date"
 output: RMDExtra::sleek_black
 code_file: "test.txt"
+summary: "This is a summary of my project." 
 ---
 ```
