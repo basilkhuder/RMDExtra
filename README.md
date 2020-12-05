@@ -27,6 +27,7 @@ Copy the output file to theme directory you created earlier, and add the name to
 
 <h4> Run the Theme </h4> 
 Include the name of the theme in the output slot of your YAML header. Include a summary which will be included in the Project Info tab and a Github username.  
+<br>
 
 ```
 ---
