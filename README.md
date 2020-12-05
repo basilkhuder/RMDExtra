@@ -16,7 +16,7 @@ After installation, the themes will appear under the <b>From Template</b> option
 
 <h4> To Include R Code </h4>
 
-Run the following code to produce the type of R Script you want to appear in the "code" tab of the theme. Use ``` documention = 0 ``` to extract only the R code, and ```r documention = 2 ``` to include documentation
+Run the following code to produce the type of R Script you want to appear in the "code" tab of the theme. Use ``` documention = 0 ``` to extract only the R code, and ``` documention = 2 ``` to include documentation
 
 
 ```r
